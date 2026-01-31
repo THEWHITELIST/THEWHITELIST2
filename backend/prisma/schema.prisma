@@ -1,0 +1,197 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+// ========== BETTER AUTH MODELS ==========
+
+model User {
+  id            String    @id
+  name          String
+  email         String    @unique
+  emailVerified Boolean   @default(false)
+  image         String?
+  createdAt     DateTime  @default(now())
+  updatedAt     DateTime  @updatedAt
+
+  // Professional fields for concierge users
+  firstName     String?
+  lastName      String?
+  company       String?   // Hotel/establishment name
+  country       String?
+
+  // Subscription fields
+  stripeCustomerId     String?   @unique
+  subscriptionId       String?   @unique
+  subscriptionStatus   String    @default("none") // none, trial, active, canceled, expired
+  trialEndsAt          DateTime?
+  subscriptionEndsAt   DateTime?
+
+  sessions      Session[]
+  accounts      Account[]
+  programs      Program[]
+  excludedActivities ExcludedActivity[]
+}
+
+model Session {
+  id        String   @id
+  expiresAt DateTime
+  token     String   @unique
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+  ipAddress String?
+  userAgent String?
+  userId    String
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+}
+
+model Account {
+  id                    String    @id
+  accountId             String
+  providerId            String
+  userId                String
+  user                  User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+  accessToken           String?
+  refreshToken          String?
+  idToken               String?
+  accessTokenExpiresAt  DateTime?
+  refreshTokenExpiresAt DateTime?
+  scope                 String?
+  password              String?
+  createdAt             DateTime  @default(now())
+  updatedAt             DateTime  @updatedAt
+}
+
+model Verification {
+  id         String   @id
+  identifier String
+  value      String
+  expiresAt  DateTime
+  createdAt  DateTime @default(now())
+  updatedAt  DateTime @updatedAt
+}
+
+// ========== CONCIERGE APPLICATION MODELS ==========
+
+model Program {
+  id          String   @id @default(cuid())
+  userId      String
+  user        User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  // Program configuration
+  city        String   @default("paris")
+  duration    Int      // 1-21 days
+  profile     String   // family, couple, vip, uhnw, etc.
+  pace        String   // relaxed, balanced, intense
+  interests   String   // JSON array of interests
+  guests      Int      @default(1)
+
+  // Trip dates
+  startDate   String?  // ISO date string (YYYY-MM-DD)
+  endDate     String?  // ISO date string (YYYY-MM-DD)
+
+  // Generated content
+  title           String?
+  introInternal   String?  // Internal concierge intro
+  introClient     String?  // Client-facing intro
+  closingInternal String?
+  closingClient   String?
+
+  // Status
+  status      String   @default("draft") // draft, validated, exported
+  validatedAt DateTime?
+
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  days        ProgramDay[]
+}
+
+model ProgramDay {
+  id          String   @id @default(cuid())
+  programId   String
+  program     Program  @relation(fields: [programId], references: [id], onDelete: Cascade)
+
+  dayNumber   Int
+  actualDate  String?  // Full date string (YYYY-MM-DD) for this day
+  themeInternal String?  // Internal theme for concierge
+  themeClient   String?  // Client-facing theme
+
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  activities  Activity[]
+}
+
+model Activity {
+  id            String     @id @default(cuid())
+  dayId         String
+  day           ProgramDay @relation(fields: [dayId], references: [id], onDelete: Cascade)
+
+  // Time slot
+  timeSlot      String     // morning, lunch, afternoon, dinner, evening
+  time          String?    // Specific time like "12:30"
+
+  // Activity type
+  type          String     // dining, culture, wellness, shopping, experience, leisure, transport, nightlife
+  category      String     // Maps to CSV: restaurants, bars, clubs, spas, musees, etc.
+
+  // Venue details (from CSV)
+  venueName     String
+  venueAddress  String?
+  venuePhone    String?
+  venueEmail    String?
+  venueWebsite  String?
+  venueHours    String?
+  venueStyle    String?
+  venuePriceRange String?
+  venueDressCode  String?
+
+  // V2 fields
+  venueDescription         String?  // Personalized recommendation comment
+  venueReservationRequired Boolean  @default(false) // For shops that need appointment
+  venueReservationNote     String?  // Special notes like Hermes lottery warning
+  isEiffelView             Boolean  @default(false) // Flag for Vue Tour Eiffel restaurants
+
+  // Descriptions
+  descriptionInternal String?  // For concierge
+  descriptionClient   String?  // For client
+
+  // Selection system (dual options)
+  isOption      Boolean  @default(false)  // True if this is an alternative option
+  optionGroupId String?  // Links two options together
+  isSelected    Boolean  @default(false)  // True if concierge selected this option
+
+  // Concierge notes
+  conciergeNotes String?
+
+  // Verification status
+  verificationStatus String @default("pending") // verified, to_confirm, pending
+
+  // Rest state (V2)
+  isRest        Boolean  @default(false) // True if this slot is marked as rest/free time
+
+  sortOrder     Int      @default(0)
+
+  createdAt     DateTime @default(now())
+  updatedAt     DateTime @updatedAt
+}
+
+// Track activities excluded by concierge for specific users
+model ExcludedActivity {
+  id          String   @id @default(cuid())
+  userId      String
+  user        User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  venueName   String   // Name of venue to exclude
+  category    String   // Category it belongs to
+  reason      String?  // Optional reason for exclusion
+
+  createdAt   DateTime @default(now())
+
+  @@unique([userId, venueName, category])
+}

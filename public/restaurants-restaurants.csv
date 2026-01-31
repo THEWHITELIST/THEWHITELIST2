@@ -1,0 +1,123 @@
+Nom;Adresse;Téléphone;Horaires (Jours et Heures);Type de cuisine;Style-Ambiance
+CHEZ SAVY;23 Rue Bayard, 75008;01 47 23 46 98;Lundi-Vendredi 12:00–14:30 / 19:00-23:00;Traditionnelle;Rétro Art déco
+LA COUPOLE;102 Bd du Montparnasse, 75014;01 43 20 14 20;7/7 08:00–00:00 sauf dimanche et lundi fermeture a 23:00;Française;Brasserie emblématique
+GRAND CAFÉ CAPUCINES;4 Bd des Capucines, 75009;01 43 12 19 00;7/7 07:00–01:00;Fruits de mer;Terrasse, 9e
+BOFINGER;5–7 Rue de la Bastille, 75004;01 42 72 87 82;7/7 12:00-15:00 / 18:30-23:00 sauf vendredi et samedi fermeture a 00:00;Alsacienne;Belle Époque
+L’ATTILLIO;184 Rue du Fbg St-Honoré, 75008;01 59 30 29 34;Lundi-Mercredi 12:00-14:00 / 19:00-00:00 Jeudi-Vendredi 12:00-14:00 / 19:00-02:00 Samedi 19:00-02:00;Gastronomique;Gastronomique, 8e
+LE TRAIN BLEU;Gare de Lyon, Pl. Louis Armand hall 1, 75012;01 43 43 09 06;7/7 11:15-14:15 / 19:00-22:15;Gastronomique;Historique, Gare
+RESTAURANT ARBORÉ;29 Rue de l’Arcade, 75008;01 88 32 74 27;Lundi-Vendredi 12:00-14:30 ;Bistronomique;Responsable, Contemporain
+LE CLARENCE;31 Av. Franklin Roosevelt, 75008;01 82 82 10 10;Mardi-Samedi 12:30-13:30 / 19:30-21:00;Gastronomique;Grand luxe, 8e
+LA FONTAINE DE MARS;129 Rue Saint-Dominique, 75007;01 47 05 46 44;7/7 12:00-14:30 / 19:00-23:00;Classique;Brasserie chic, Terrasse
+CHEZ L’AMI LOUIS;32 Rue du Vertbois, 75003;01 48 87 77 48;Mer-Dim 12:30-13:15 / 19:30-22:30;Brasserie Trad;Haut de gamme, 3e
+L’AMI JEAN;27 Rue Malar, 75007;01 47 05 86 89;Mardi-Samedi 12:00-14:00 / 19:00-23:00 Samedi ouvert le midi seulement ;Terroir;Chaleureuse, 7e
+BRASSERIE LIPP;151 Bd Saint‑Germain, 75006;01 45 48 53 91;7/7 09:00–02:00;Française;Iconique, 6e
+LE BON GEORGES;45 Rue Saint‑Georges, 75009;01 48 78 40 30;7/7 12:00-14:30 / 19:00-22:30;Classique;Brasserie, Vins
+LE COLIMAÇON;44 Rue Vieille du Temple, 75004;01 48 87 12 01;Lundi-Samedi 18:30–23:00 Dimanche 12:30-14:30 / 18:30-23:00;Créatif;Cadre chaleureux, 4e
+BISTROT PAUL BERT;18 Rue Paul Bert, 75011;01 43 72 24 01;Mardi-Samedi 12:00-14:00 / 19:30-23:00;Bistrot;Familiale, Généreuse
+LA TABLE DES GOURMETS;14 Rue des Lombards, 75004;01 40 27 00 87;7/7 12:00-14:30 / 19:00-23:00;Française;Insolite (Chapelle 12e s)
+LE GRAND CAFÉ;Pl. Clemenceau (Grand Palais);01 85 09 40 50;7/7 12:00–02:00;Brasserie;Tard le soir, 8e
+FRANÇOIS FELIX;9 Rue Boissy d’Anglas, 75008;01 42 65 04 05;Lundi-Vendredi 7:00-00:30 Samedi 9:00-00:30 Dimanche 12:00-00:30;Brasserie;À côté du Ritz
+NECTAR;7 Rue Mayran, 75009;01 42 80 00 00;Mardi-Samedi 12:00-14:30 / 19:00-23:00;Créative;Design, 9e
+LE PETIT LUTETIA;107 Rue de Sèvres, 75006;01 45 48 33 53;Lundi 12:00-15:00 / 19:00-23:00 Mardi-Vendredi 12:00-15:00 / 19:00-23:30 Samedi 12:00-16:00 / 19:00-23:30 Dimanche 12:00-16:00 / 19:00-23:00 ;Brasserie;Rétro élégante, 6e
+LE VOLTAIRE;27 Quai Voltaire, 75007;01 42 61 17 49;7/7 12:00-15:30 / 19:00-22:30;Traditionnelle;Salle boisée, Terrasse
+L’ATELIER MAÎTRE ALBERT;1 rue Maître Albert, 75005;01 56 81 30 01;7/7 12:00-14:30 / 18:30-21:30;Contemporaine;Guy Savoy, Historique
+ALLARD;41 rue St-André-des-Arts, 75006;01 43 26 48 23;7/7 12:00-14:00 / 19:00-22:00;Traditionnelle;Authentique, 6e
+LE TAILLEVENT;15 Rue Lamennais, 75008;01 44 95 15 01;Lundi 19:15-21:00 Mardi-Vendredi 12:00-13:30 / 19:15-21:00;Créative;2* Michelin, Classique
+APICIUS;20 Rue d'Artois, 75008;01 43 80 19 66;Lundi-Samedi 12h15-13:30h / 19h15-21:30h;Gastronomique;1* Michelin, Raffiné
+LA DAME DE PIC;20 Rue du Louvre, 75001;01 42 60 40 40;Mercredi-Dimanche 12h-13h30 / 19h-21h30;Gastronomique;1* Michelin, Élégant
+LA GRANDE CASCADE;Rte de la Vge aux Berceaux, 75016;01 45 27 33 51;7/7 12h30-13h30 / 19h30-21h30;Gastronomique;2* Michelin, Luxueux
+LE PRÉ CATELAN;Bois de Boulogne, 75016;01 44 14 41 14;Mercredi-Samedi 12h-14h / 19h-20h15;Gastronomique;3* Michelin, Opulent
+PASSIONEE;17 Rue Bergère, 75009;01 42 28 58 14;Mardi-Dimanche 12h-14h30 / 19h-22h30;Gastronomique;3* Michelin, Tamisé
+MALLORY GABSI;28 rue des Acacias, 75017;09 52 96 09 99;Lundi-Vendredi 12h30-13h15 / 19h30-21h15;Moderne;1* Michelin
+LE GABRIEL;42 avenue Gabriel, 75008;01 58 36 60 66;Lundi-Vendredi 12h30-13h30 / 19h30-21h30;Moderne;2* Michelin, La Réserve
+OGATA PARIS;16 Rue Debelleyme, 75003;01 80 97 76 80;Mercredi-Dimanche 12h30-15:00 / 19h00 - 23h00;Japonaise;1* Michelin, Omakase
+SUSHI YOSHINAGA;27 Rue du 4 septembre, 75002;07 57 81 46 46;Mardi-Samedi 19:00-21:30;Japonaise;1* Michelin, Comptoir
+BENOIT;20 rue Saint-Martin, 75004;01 42 72 25 76;7/7 12:00-14:00 / 19:00-22:00;Bistrot;Historique, Ducasse
+CHEZ FRANCIS;7 Place de l’Alma, 75008;01 47 20 86 83;7/7 8h30-23h30 service continu ;French Classic;Vue Tour Eiffel
+L’AVENUE;41 Avenue Montaigne, 75008;01 40 70 14 91;Lundi-vendredi 8h00-1h00 Samedi-Dimanche 9h00-00:30;High-end Brasserie;Terrasse, People-watching
+KINUGAWA;55 avenue de Sax;01 81 69 07 49;7/7 12h-14h30 / 19h00-23h30h;Japonaise;Épuré, Miroirs
+MARIUS ET JANETTE;4 Av. George V, 75008;01 47 23 41 88;7/7 12h-15h / 19h-23h;Poissons/Seafood;Yacht poli, Raffiné
+MISS KÔ;49-51 Av. George V, 75008;01 53 67 84 60;7/7 12h-2h;Asian Fusion;Trendy, Festif, Musique
+LE RELAIS DE L’ENTRECÔTE;15 Rue Marbeuf, 75008;01 49 52 07 17;Lundi-Vendredi 12:00-14:30 / 18h30-23h00 Samedi-Dimanche 12h-15h / 18h30-23h00;Steak-Frites;Friendly, Menu unique
+PEDRA ALTA;25 Rue Marbeuf, 75008;01 40 70 09 99;7/7 12h-1h;Portugaise;Seafood, Convivial
+SIAMIN;19 Rue Bayard, 75008;01 47 20 23 70;Lundi-Samedi 12h-15h / 19h-23h;Thaïlandaise;Gastronomique, Temple
+LASSERRE;17 Av. Franklin Roosevelt, 75008;01 43 59 02 13;Mardi-Samedi 19h-21h30;Gastronomique;Toit ouvrant, Luxe
+MATIGNON;3 Av. Matignon, 75008;01 42 89 64 72;Lundi-Vendredi 8h-2h Samedi-Dimanche 10h-2h;Trad / Cocktails;Boîte de nuit, Terrasse
+MANKO;15 Av. Montaigne, 75008;01 82 28 00 15;Lundi-Samedi 19h-2h;Péruvien;Chic, Festif
+LE CARRÉ ELYSÉE;49 Av. Franklin Roosevelt, 75008;01 43 59 91 06;Mardi-Dimanche 7h-00h;Brasserie;Terrasse, Végétarien
+L’ENTRECOTE DE PARIS;29 Rue de Marignan, 75008;01 42 25 28 60;7/7 11h30-23h30;Steak-Frites;Animé, Art Nouveau
+RIVIERA FUGA;10 Port des Invalides, 75007;06 61 05 87 80;7/7 12h-01h;Fusion Jap-Ital;Sur Péniche, Cocktails
+GRAN CAFFE CONVIVIUM;28 Rue Marbeuf, 75008;06 36 55 55 55;7/7 9h-00h;Italien Trad;Sicilien, All day service
+BEAUVAU SAINT HONORÉ;4 Rue des Saussaies, 75008;01 44 94 03 09;Lundi-Vendredi 7h-00h / Samedi 11h30-00h;Corse;Chic
+LE CLARENCE (2nd);31 Av. Franklin Roosevelt, 75008;01 82 82 10 10;Mardi-Samedi 12h30-13h30 / 19h30-21h;Gastronomique;Prestigieux
+BEEF BAR;5 Rue Marboeuf, 75008;01 44 31 40 00;7/7 12h30-14h30 / 19h30-23h30;Steakhouse;Chic, Moderne
+BOEUF SUR LE TOIT;34 rue du colisée, 75008;01 53 93 65 50;Mardi-Dimanche 19h-02h;Brasserie;Musical, Historique
+FOUQUET'S;99 Av. des Champs-Élysées;01 40 69 60 50;7/7 7h30-00h;Brasserie;Mythique, 8e
+BAMBINI (2nd);13 Av. du Président Wilson, 75116;01 40 70 86 08;7/7 12h-15h / 19h-23h;Italien;Festif, Palais de Tokyo
+ANNA;14 Rue Marbeuf, 75008;01 45 51 74 14;7/7 12h-15h / 19h30-23h30;Grec;Raffiné
+KEI (2nd);5 Rue Coq Héron, 75001;01 42 33 14 74;Mardi-jeudi 19h45-21h Vendredi-samedi 12h30-13h15 / 19h45-21h;Français-Japonais;3* Michelin
+LE CINQ (GEORGE V);31 avenue George-V, 75008;01 49 52 71 54;Mardi-Samedi 19h-21h30;Français;3* Michelin, Palace
+LE MEURICE;228 rue de Rivoli, 75001;01 44 58 10 55;Lundi-Vendredi 19h-21h30;Classique;2* Michelin, Grolet
+SHANG PALACE;10 Av. d'Iéna, 75116;06 61 86 56 86;Jeudi-Vendredi-Samedi-Dimanche 12h-14h / 18h30-22h;Chinois;1* Michelin, Opulent
+BRASSERIE LUTETIA;43 Bd Raspail, 75006;01 49 54 46 92;7/7 07:00-22:30;Français/Mer;Terrasse, Palace
+L’OISEAU BLANC;19 Avenue Kléber, 75008;01 58 12 28 88;7/7 12:00-14:00 / 19:00-22:00;Français;Vue Tour Eiffel, Peninsula
+COCO;Opéra Garnier, 75009;01 42 68 68 68;7/7 12:00-15:00 / 18:30-2:00;Brunch / Fr;Chic, Terrasse
+PERRUCHE;9 rue d’Aguesseau, 75008;01 40 34 01 23;Lundi-Vendredi 12:00-15:00 / 19:00-02:00 Samedi-Dimanche 12h30-16h / 19h-2h;Français;Brunch, Rooftop
+JARDINS DU FAUBOURG;29 passage du Havre, 75009;01 86 54 15 15;7/7 10:00-19:00;Français;Paisible, 9e
+CAFÉ 52 (GRAND POWERS);52 Rue François Ier, 75008;01 47 23 91 05;7/7 7:00-00:00;Français;Brunch, Chic
+HOTEL BRACH;1-7 Rue Jean Richepin, 75016;01 44 30 10 00;7/7 7h-23h;Méditerranéenne;Design, Starck
+LA BAUHINIA;10 av d’léna, 75116;06 61 86 56 86;7/7 12:00-14:00 / 19:00-22:00;Fr & Sud-Asiat;Sous dôme, Palace
+PUR’;5 rue de la Paix, 75002;01 58 71 10 60;Mardi-Samedi 19:00-21:15;Gastronomique;Buffet Entrée/Dessert
+LE LOBBY;19 Av. Kléber, 75116;01 58 12 28 88;7/7 7:00-22:30;Brunch;Peninsula Paris
+CAFÉ DE FLORE;172 Bd Saint-Germain, 75006;01 45 48 55 26;7/7 07:30-01:30;Français;Historique, Mythique
+HOTEL COSTES;7 Rue de Castiglione, 75001;01 42 44 50 00;7/7 24h/24;Traditionnelle;Très branché, Musique
+GIGI (2nd);15 Av. Montaigne, 75008;01 47 23 55 99;7/7 12h-15h / 19h-22h;Italien;Vue Tour Eiffel
+LOULOU (2nd);107 Rue de Rivoli, 75001;06 46 20 02 40;7/7 12h-15h00 / 19h-23h30;Italien / Fr;Jardin des Tuileries
+LE JULES VERNE (2nd);Tour Eiffel (2e étage);01 72 76 16 61;7/7 12h-13h45 / 19h-21h;Gastronomique;Vue 125m, Veste obl.
+RALPH’S;173 Bd Saint-Germain, 75006;01 89 20 23 50;7/7 12h-16h00 / 19h00-23h;Américain;Polo Club, Patio
+HOLYWOOD SAVOY;44 Rue N-D des Victoires, 75002;01 83 64 82 95;7/7 12h00-02h00 ;Chic branché;Festif
+À L'ÉPI D'OR;25 Rue J-J Rousseau, 75001;01 42 36 38 12;Lundi-Vendredi 12h-15h00 / 19h-23h;Saison;Rétro Chic
+CHEZ JAÏS;3 Rue Surcouf, 75007;01 45 51 98 16;Mardi-vendredi 12h-14h30 / 19h30-22h30Samedi 19h30-22h30;Bistrot Fr;Belle carte saison
+LES DEUX MAGOTS;6 Pl. St-Germain-des-Prés;01 45 48 55 25;7/7 07:30-01:00;Brasserie;Historique, Brunch
+LE PROCOPE;13 Rue de l’ancienne Comédie;01 40 46 79 00;7/7 12h-00h;Brasserie;La plus ancienne de Paris
+LE BERKELEY;7 avenue Matignon, 75008;01 44 07 27 28;7/7 12h-23h30;Bistrot haut de gamme;Chic, Matignon
+KAVOD;26 Rue Jean Mermoz, 75008;01 42 25 65 26;Lundi-Jeudi 12h15-14h15 / 19h30-22h15 Dimanche 19h30-22h15;Français (Kasher);Gastronomique chic
+KAVOD HALAVI;19 Rue Jean Mermoz, 75008;01 42 89 02 00;Lundi-Jeudi 12h15-14h15 / 19h30-22h15 Dimanche 19h30-22h15;Italien (Kasher Halavi);Méditerranéen, Lacté
+LA PATE À NOUILLES;41 Rue de Ponthieu, 75008;01 47 20 06 72;Lundi-Samedi 11h-22h30;Chinois;Ramen, Service rapide
+OH MY NOODLE;10 Rue du Colisée, 75008;01 40 70 05 27;Lundi-vendredi 11h30-22h Samedi-Dimanche 11h30-15h / 17h30-22h;Chinois;Ramen faits main
+LAO TSEU;209 Bd Saint-Germain, 75007;01 45 48 30 06;7J/7 12h-14h30 / 19-22h30;Chinois;Goût adapté français
+IMPERIAL TREASURE;44 Rue de Bassano, 75008;01 58 56 29 13;Mardi-dimanche 12h-14h / 18h30-22h;Chinois Fine Cuisine;Canard Pékinois
+OKUDA;7 Rue de la Tremoille, 75008;01 40 70 19 19;Vendredi-Mardi 12h-13h30 / 18h30-21h30;Japonaise (Kaiseki);Michelin, Silence d'or
+AKIRA BACK;33 Avenue George V, 75008;01 53 23 78 50;7/7 19h-00h;Japonaise Moderne;Melting-pot fusion
+SHIRO;168 Bd St Germain, 75006;01 56 81 91 62;7/7 12:00-14:00 / 19:00-22:00;Franco-Japonais;Fusion, Design
+MOOM MAM;19 Rue de Mogador, 75009;01 71 25 26 92;7/7 12h-14h30 / 19h-22h30;Thaïlandaise;Brasserie chic, Terrasse
+LITTLE BAMBOU;84 Rue Lauriston, 75016;01 83 64 52 82;7/7 12h-14h30 / 18h-23h;Thaïlandaise;Chaleureux, Singulier
+BAMBOU;23 Rue des Jeuneurs, 75002;01 40 28 98 30;7/7 12h-14h30 / 18h-23h;Thaïlandaise;Terrasse, Salon feutré
+THIOU AU NORMAN;9 Rue Balzac, 75008;01 42 99 80 80;Lundi-vendredi 12h-14h30 / 19h-22h30 Samedi 12h-14h30 / 19h 22h30;Thaïlandaise;Tigre qui pleure, Palace
+SHARMAJI;16 Rue Frémicourt, 75015;09 78 80 52 78;Mardi-Samedi 12:00-14:15 / 18h30-22:30 Dimanche 12h-14h30;Indien (Bistronomie);Michelin, Coloré
+KHAJURAHO;14 Bd de la Tour-Maubourg;01 42 73 29 18;Lundi-Samedi 12h-14h / 19h-22h;Indien Gastronomique;Cuisine royale
+ANNAPURNA;32 Rue de Berri, 75008;01 45 63 91 62;Lundi-vendredi 12h-14h30 / 19h-22h45 Samedi 19h- 22h45;Indien;Club anglais, Feutré
+MADONNA;52 Rue La Fayette, 75009;01 47 70 59 08;7/7 12:00-00:00;Italien;Opulent, Raffiné
+PAVYLLON PARIS;8 Av. Dutuit, 75008;01 53 05 10 10;7/7 12:00-14:30 / 19:00-22:30;Français Fine Dining;Yannick Alléno, Comptoir
+MOJJU (2nd);4 rue de l'Exposition, 75007;01 45 51 88 38;Lundi-Jeudi 19h15-22h Vendredi-samedi 12h15-14h / 19h15 - 22h30 Dimanche 12h15-14 / 19h15 - 22h;Coréenne;Hanok trad., Équipe Corée
+Phô Tai;13 rue Philibert-Lucot, 13e;01 45 85 97 36;Mardi-Dimanche 12h-15h / 18h45-22h15;Vietnamien;Cantine familiale, tonitruante et conviviale.
+Mắm From Hanoï;39 rue de Cléry, 2e;01 42 33 12 31;Mardi-Samedi 12h-14h30 / 19h-21h30 Lundi 12h-14h30;Vietnamien;Sobre, traditionnel, spécialité sauce Mắm.
+Hanoi 1988;72 Quai des Orfèvres, 1er;07 65 21 68 68;Lundi-Vendredi 12h-17h / 19h-23h ;Vietnamien;Petite cantine typique, produits frais, ambiance cool.
+Icosium;17 bis Rue Campagne Première, 14e;01 43 20 97 81;Lundi-Samedi 09h-14h / 19h-22h30;Algérien;Casse les codes traditionnels, moderne.
+Wally Le Saharien;36 Rue Rodier, 9e;01 42 85 51 90;Mardi-Samedi 12h-14h / 19h-23h;Algérien;Décor Mille et Une Nuits, couscous saharien.
+Les Piétons;8 Rue des Lombards, 4e;01 40 29 49 13;7j/7 11h00 - 02h00;Espagnol;Bar à Tapas historique, ambiance festive.
+Au Derrick Catalan;346 Rue Lecourbe, 15e;01 45 58 48 75;Lundi-Samedi : 12h-14h / 19h-22h30 Dimanche 12h-14h;Espagnol;Gastronomie catalane, cadre traditionnel.
+Saudade;34 rue des Bourdonnais, 1er;01 42 36 30 71;Lundi-Samedi : 12h-14h / 19h-22h30;Portugais;Traditionnel, chic, soirées Fado (1er mardi du mois).
+Café Titon;34 rue Titon, 11e;01 43 71 74 51;Lundi-Samedi 08h-02h Dimanche 9h-00h00;Allemand;Diversité de saucisses, ambiance de quartier.
+Oxte;5 rue Troyon, 17e;01 45 75 15 15;Lundi-Vendredi 12h15-1345 / 19h15-20h45;Mexicain;1 Michelin*, cuisine d'une grande finesse.
+Alan Geaam;19 rue Lauriston, 16e;01 45 01 72 97;Lundi-Vendredi : 12h-14h / 19h30-21h30;Libanais;1 Michelin*, gastronomique de renom.
+Al Hajami;58 Rue François 1er, 8e;01 42 25 38 44;7/7 12h-23h;Libanais;Recommandé, chic dans le Triangle d'Or.
+Ferona;7 Rue Chevalier de St-George, 8e;01 42 61 16 80;7j/7 : 11h30 - 23h30;Argentin;Moderne, grillades argentines.
+Baez;2 Rue de Sontay, 16e;09 84 10 77 58;Mardi-Samedi : 12h-14h30 / 19h-22h30;Argentin;Chic, nappes blanches, empanadas et steaks.
+Langosteria;8 quai du Louvre, 1er;01 79 35 50 33;Mercredi-Dimanche 12h00-15:00 / 18h00 - 23h00 Lundi-Mardi 18h-23h;Poisson;Méditerranéen luxe au Cheval Blanc.
+Prunier;16 Av. Victor Hugo, 16e;01 44 17 35 85;Mar-Dim : 12h-14h30 / 19h-23h30;Poisson;Art Déco, spécialité caviar et brunch.
+Divellec;18 Rue Fabert, 7e;01 45 51 91 96;7j/7 12h-13h30 / 19h-21h30;Poisson;1 Michelin*, cadre sophistiqué, innovant.
+Marius et Janette;4 Av. George V, 8e;01 47 23 41 88;7j/7  12h-15h / 19h-23h;Poisson;Intérieur yacht en bois vernis, très raffiné.
+Le Duc;243 Boulevard Raspail, 14e;01 43 20 96 30;Lundi-Samedi 12h-14h / 19h30-22h30;Poisson;Institution gastronomique très sélective.
+Clover Grill;6 rue Bailleul, 1er;01 40 41 59 59;Jeudi-dimanche 12h-15h / 19h-23h mardi-mercredi 18h-23h;Viandes;Raffiné, cuisson braise ou broche.
+La Maison de l'Aubrac;37 Rue Marbeuf, 8e;01 43 59 95 16;dimanche-mardi 12h-1h mercredi 12h-6h jeudi-samedi 12h-7h15 ;Viandes;Élevage familial, ouvert très tard.
