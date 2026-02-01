@@ -9,9 +9,10 @@
     }
   ],
   "functions": {
-    "api/**/*.ts": {
+    "api/**/*.cjs": {
       "runtime": "@vercel/node@3.1.0"
     }
   }
 }
+
 
