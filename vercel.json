@@ -11,12 +11,13 @@
   "functions": {
     "api/**/*.ts": {
       "runtime": "@vercel/node@3.1.0"
-    }
+    },
     "api/**/*.cjs": {
       "runtime": "@vercel/node@3.1.0"
     }    
   }
 }
+
 
 
 
