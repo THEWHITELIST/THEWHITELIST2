@@ -2,7 +2,7 @@ import type { VercelRequest, VercelResponse } from "@vercel/node";
 import Stripe from "stripe";
 
 // Initialize Stripe with the secret key from environment variables
-const stripe = new Stripe(process.env.STRIPE_SECRET_KEY!);
+const stripe = new Stripe(process.env.STRIPE_SECRET_KEY);
 
 export default async function handler(req: VercelRequest, res: VercelResponse) {
   // Only allow GET requests
@@ -49,3 +49,4 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
     });
   }
 }
+
