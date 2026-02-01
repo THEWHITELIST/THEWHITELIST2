@@ -1,3 +1,4 @@
+import type { VercelRequest, VercelResponse } from "@vercel/node";
 import Stripe from "stripe";
 
 // Initialize Stripe with the secret key from environment variables
@@ -52,4 +53,5 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
     });
   }
 }
+
 
