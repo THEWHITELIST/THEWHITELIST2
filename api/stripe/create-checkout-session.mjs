@@ -1,16 +1,15 @@
-import type { VercelRequest, VercelResponse } from "@vercel/node";
+// create-checkout-session.mjs
 import Stripe from "stripe";
 
-// Vérification des variables d'environnement
 if (!process.env.STRIPE_SECRET_KEY) {
   throw new Error("STRIPE_SECRET_KEY is not defined in environment variables");
 }
-const stripe = new Stripe(process.env.STRIPE_SECRET_KEY as string);
+const stripe = new Stripe(process.env.STRIPE_SECRET_KEY);
 
 const PRICE_AMOUNT = 24999; // 249.99 EUR
 const CURRENCY = "eur";
 
-export default async function handler(req: VercelRequest, res: VercelResponse) {
+export default async function handler(req, res) {
   if (req.method !== "POST") {
     return res.status(405).json({ error: { message: "Method not allowed", code: "METHOD_NOT_ALLOWED" } });
   }
@@ -21,17 +20,12 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
       return res.status(400).json({ error: { message: "instantDbUserId et email sont requis", code: "MISSING_PARAMS" } });
     }
 
-    // Construction des URLs
-    const baseUrl = process.env.NEXT_PUBLIC_BASE_URL ||
-                    process.env.VERCEL_URL ? `https://${process.env.VERCEL_URL}` :
-                    "http://localhost:8000";
+    const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || process.env.VERCEL_URL
+      ? `https://${process.env.VERCEL_URL}`
+      : "http://localhost:8000";
     const successUrl = new URL("/payment-success?session_id={CHECKOUT_SESSION_ID}", baseUrl).toString();
     const cancelUrl = new URL("/payment-canceled", baseUrl).toString();
 
-    console.log("[Stripe] Creating checkout session for:", { instantDbUserId, email });
-    console.log("[Stripe] URLs:", { successUrl, cancelUrl });
-
-    // Création de la session Stripe
     const session = await stripe.checkout.sessions.create({
       mode: "subscription",
       payment_method_types: ["card"],
@@ -54,15 +48,9 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
       subscription_data: { trial_period_days: 14 },
     });
 
-    console.log("[Stripe] Session created:", session.id);
     return res.status(200).json({ data: { sessionId: session.id, url: session.url } });
   } catch (error) {
-    if (error instanceof Stripe.errors.StripeError) {
-      console.error("[Stripe] Stripe API Error:", error.type, error.message);
-      return res.status(400).json({ error: { message: error.message, code: error.type } });
-    } else {
-      console.error("[Stripe] Unexpected error:", error);
-      return res.status(500).json({ error: { message: "Erreur interne", code: "INTERNAL_ERROR" } });
-    }
+    console.error("[Stripe] Error:", error);
+    return res.status(500).json({ error: { message: "Erreur interne", code: "INTERNAL_ERROR" } });
   }
 }
