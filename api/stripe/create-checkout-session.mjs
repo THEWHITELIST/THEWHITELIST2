@@ -19,9 +19,9 @@ export default async function handler(req, res) {
     if (!instantDbUserId || !email) {
       return res.status(400).json({ error: { message: "instantDbUserId et email sont requis", code: "MISSING_PARAMS" } });
     }
-
+ 
     const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || process.env.VERCEL_URL
-      ? `https://${process.env.VERCEL_URL}`
+      ? `https://${process.env.NEXT_PUBLIC_BASE_URL}`
       : "http://localhost:8000";
     const successUrl = new URL("/payment-success?session_id={CHECKOUT_SESSION_ID}", baseUrl).toString();
     const cancelUrl = new URL("/payment-canceled", baseUrl).toString();
@@ -54,3 +54,4 @@ export default async function handler(req, res) {
     return res.status(500).json({ error: { message: "Erreur interne", code: "INTERNAL_ERROR" } });
   }
 }
+
