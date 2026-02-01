@@ -9,11 +9,12 @@
     }
   ],
   "functions": {
-    "api/**/*.ts": {
+    "api/**/*.mjs": {
       "runtime": "@vercel/node@3.1.0"
     }
   }
 }
+
 
 
 
